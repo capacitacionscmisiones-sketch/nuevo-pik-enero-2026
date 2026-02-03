@@ -348,7 +348,7 @@ if df is not None:
                 labels={'VENTA': 'Venta Promedio ($)', 'Equipo': ''},
                 color_discrete_sequence=['#ff7f0e']
             )
-            fig_equipo_venta.update_xaxis(tickangle=45)
+            fig_equipo_venta.update_layout(xaxis_tickangle=45)
             st.plotly_chart(fig_equipo_venta, use_container_width=True)
     
     with tab3:
